@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
-  "predicates": {
-    "location": {
+  "predicate": {
+    "minecraft:location": {
       "dimension": "minecraft:the_end"
     }
   }

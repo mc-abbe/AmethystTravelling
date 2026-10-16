@@ -1,11 +1,11 @@
 {
-    "condition": "minecraft:any_of",
+    "type": "minecraft:any_of",
     "terms": [
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                     "mainhand": {
                         "items": "#amethysttravelling:magical_item"
                     }
@@ -13,10 +13,10 @@
             }
         },
         {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                     "offhand": {
                         "items": "#amethysttravelling:magical_item"
                     }

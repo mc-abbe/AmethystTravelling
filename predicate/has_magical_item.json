@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "items": "#amethysttravelling:magical_item"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "offhand": {
+                        "items": "#amethysttravelling:magical_item"
+                    }
+                }
+            }
+        }
+    ]
+}
